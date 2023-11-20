@@ -1,0 +1,284 @@
+/*CORES
+    #444059
+    #F2E6A7
+    #F2C777
+    #F2A25C
+    #D97059
+*/
+
+
+/* Padrão */
+img{
+    height: 100%;
+    width: 100%;
+} 
+body{
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+
+    background-color: #fff8db;
+} 
+
+
+
+
+/* HEADER */
+.header{
+    /* Flexbox */
+    display: flex; 
+    
+
+    /* Caixa */
+    background-color: #444059;
+    height: 120px;
+    width: 100%;
+    margin-top: 0%;
+}
+
+    .hitem1{
+        display: flex;
+        align-items: center;
+
+        font-size: x-large;
+        font-family: "Lucida Handwriting", cursive;
+        color: #F2A25C;
+        
+        width: 30%;
+        margin-left: 30px;
+
+        cursor: pointer;
+    }
+    
+    .hitem2{
+        display: flex;
+        justify-content: flex-end;
+        font-family: sans-serif;
+
+        color: #F2A25C;
+
+        padding: 10px;
+        margin-top: -25px;
+    }
+
+    .hitem3{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-end;
+        
+        width: 70%;
+
+        font-family: "Monaco", monospace;
+        font-size: 20px;
+        color: #F2A25C;
+    }
+        .hitem3js{
+            border-radius: 10%;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            cursor: pointer;
+        }
+
+
+
+
+/* BODY */
+.body{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 100%;
+}
+
+    /* Cursos esquerda */
+    .cursos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+        /* background-color: aqua; */
+        height: auto;
+        width: 64%;
+    }
+        .citem1{
+            height: auto;
+            width: 50%;
+            
+            position: relative;
+
+            padding: 10px;
+
+            transition:transform 0.4s ease;
+            cursor: pointer;
+        }
+            .citem2{
+                height: 50px;
+                width: 60%;
+
+                margin-top: 50px;
+                position: absolute;
+
+                font-size: 45px;
+                font-family: sans-serif;
+
+                text-align: center;
+
+                color: #F2A25C;
+                background-color:#444059;
+                opacity: 80%;
+            }
+
+
+    /* Separador centro */
+    .separador{
+        background-color: #F2A25C;
+        width: 1%;
+    }
+
+
+    /* Informativo direita */
+    .informativos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+
+        /* background-color: blue; */
+        height: auto;
+        width: 35%;
+    }   
+        .iitem1{
+            background-color: #F2C777;
+            border-radius: 5%;
+            width: 35%;
+            text-align: center;
+
+            color: #444059;
+            font-family: "Helvetica", sans-serif;
+            font-size: 20px;
+            
+            
+            padding: 10%;
+            padding-top: 9%;  
+            padding-bottom: 9%;  
+        }
+
+
+/* SUB-BODY */
+    .subbody{
+        width: 100%;
+        height: 100%;
+    }   
+        .titleCursos{
+            padding-left: 30%;
+            margin-top: 150px;
+
+            background-color: #efe4b7;
+
+            
+            font-size: 60px;
+            font-family: "Lucida Handwriting", cursive;
+            color: #444059;
+        }
+        
+        .txtbuttCursos{
+            display: flex;
+            justify-content: space-evenly;
+        }            
+            .txtCursos{
+                display: flex;
+                flex-direction: column;
+
+                width: 40%;
+
+                line-height: 1.75;
+                text-indent: 40px;
+
+                font-size: large;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .buttCursos{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+                width: 20%;
+            }
+                .bcitem1{
+                    border-radius: 10%;
+                    background-color: #444059;
+                    height: 70px;
+                    width: 80%;
+                    cursor: pointer;
+
+                    font-family: "Monaco", monospace;
+                    font-size: x-large;
+                    color: #F2A25C;
+                }
+
+
+
+
+/* VÍDEO */
+    .video{
+        width: 100%;
+        height: 100%;
+
+    }
+
+    /* Superior */
+        .superior{
+            display: flex;
+            justify-content: space-evenly;
+
+            width: 100%;
+
+            background-color: aqua;
+
+            margin-top: 5%;
+        }   
+            /* Aula */
+            .aula{
+                width: 45%;
+                height: 80%;
+
+                display: flex;
+                flex-direction: column;
+                background-color: aliceblue;
+            }
+            .abutt{
+                margin-top: 40px;
+                
+                background-color: #F2C777;
+            }
+
+            /* Módulos */
+            .modulos{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                background-color: aqua;
+
+                height: auto;
+                width: 20%;
+            }
+                .mitem1{
+                    height: 20%;
+                    width: 100%;
+                    
+                    font-size: x-large;
+                    text-align: center;
+                    font-family: "Monaco", monospace;
+                    color: #F2A25C;
+
+                    background-color: #444059;
+                    border: #F2A25C solid 1px;
+                }
+    
+    /* Inferior */
+        .inferior{
+            
+        }

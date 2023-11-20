@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mappa</title>
+
+    <link rel="stylesheet" href="SiteFigma.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <div class="header">
+    
+        <!-- Logo esquerda -->
+        <div class="hitem1">
+            
+            <h1>Mappa 〽</h1>
+        
+        </div>
+        
+        <!-- Trabalhos centro-->
+        <div class="hitem3">
+            <div class="hitem3js" onclick="acharSuperDev()" onmouseover="animarHeader(this)" onmouseout="retornar(this)">
+                <p>SuperDev</p>
+            </div>
+
+            <div class="hitem3js" onclick="acharBootCamps()" onmouseover="animarHeader(this)" onmouseout="retornar(this)">
+                <p>BootCamps</p>
+            </div>
+
+            <div class="hitem3js" onmouseover="animarHeader(this)" onmouseout="retornar(this)">
+                <p>Pacotes</p>
+            </div>
+            
+            <div class="hitem3js" onmouseover="animarHeader(this)" onmouseout="retornar(this)">
+                <p>Atendimento</p>
+            </div>
+        </div>
+                
+        <!-- Login direita-->
+        <div class="hitem2">
+            
+            <h5><u> Login </u></h5>
+
+        </div>
+    </div>
+
+    <!-- BODY -->
+    <div class="body">
+        
+        <!-- Cursos esqueda -->
+        <div class="cursos">
+            <div class="citem1" onclick="acharSuperDev()" onmousemove="animarCursos(this)" onmouseout="retornar(this)">
+                <div class="citem2">
+                    SuperDev
+                </div>
+
+                <img src="SuperDev.jpg" alt="SuperDev" style="border-radius: 5%;">
+            </div>
+
+            <div class="citem1" onclick="acharBootCamps()" onmousemove="animarCursos(this)" onmouseout="retornar(this)">
+                <div class="citem2">
+                    BootCamps
+                </div>
+
+                <img src="BootCamps.png" alt="BootCamps" style="border-radius: 5%;">
+            </div>
+        </div>
+
+        <div class="separador"></div>
+
+        <!-- Informativos direita -->
+        <div class="informativos">
+            <div class="iitem1">
+                <h4>Cursos com certificado gratuito</h4>
+            </div>
+            
+            <div class="iitem1">
+                <h4>Eventos especiais do mês de Dezembro</h4>
+            </div>
+            
+            <div class="iitem1">
+                <h4>Acesse os nossos canais de comunicação</h4>
+            </div>
+        </div>
+    </div>
+
+    <!-- SUB-BODY -->
+    <div class="subbody">
+        <!-- TXT SuperDev -->
+        <div>
+            <div id="superDev">
+                <h2 class="titleCursos">SuperDev</h2>
+            </div>
+
+            <div class="txtbuttCursos">
+                <div class="txtCursos">
+                    <p>Torne-se um mestre no desenvolvimento web com o nosso curso
+                     <strong>SuperDev</strong>, a chave para se tornar um desenvolvedor web de alto nível! Este
+                     curso abrangente é perfeito para iniciantes e entusiastas da programação que
+                     desejam explorar o fascinante universo do desenvolvimento web. Descubra como
+                     criar websites incríveis e dinâmicos utilizando HTML, CSS e JavaScript, as
+                     três bases essenciais do desenvolvimento web moderno.</p>
+    
+                    <p>O <strong>SuperDev</strong> apresenta os melhores professores da Mappa, garantindo
+                     uma experiência de aprendizado de alta qualidade. As vagas são limitadas,
+                     então não perca a oportunidade de garantir seu lugar neste curso exclusivo.
+                     Além disso, os alunos premium desfrutarão de benefícios adicionais, incluindo
+                     acesso a um grupo exclusivo, monitorias personalizadas e grupos dedicados no
+                     Telegram e WhatsApp. Prepare-se para uma jornada emocionante rumo ao domínio
+                     do desenvolvimento web!</p>
+                </div>
+
+                <div class="buttCursos">
+                    <button class="bcitem1">COMECE AGORA!</button>
+                </div>
+            </div>
+        </div>  
+        
+        <!-- TXT BootCamps -->
+        <div id="bootCamps">
+            <h2 class="titleCursos">BootCamps</h2>
+        </div>
+
+        <div class="txtbuttCursos">
+            <div class="txtCursos">
+                <p>Os <strong>BootCamps</strong> oferecidos pelo nosso site de cursos de programação são amplamente
+                 reconhecidos como os melhores e mais bem estruturados para facilitar um aprendizado
+                 eficaz. Os alunos não apenas têm acesso a conteúdo de alta qualidade, mas também se
+                 beneficiam de uma comunidade engajada através de grupos no Telegram e Discord,
+                 proporcionando um espaço valioso para tirar dúvidas e interagir com outros estudantes.
+                 Além disso, nossa variedade de <strong>BootCamps</strong> abrange diversas linguagens de programação,
+                 atendendo às necessidades individuais de cada aluno.</p>
+    
+                <p>Destacamos ainda nossos <strong>BootCamps</strong> premium, que oferecem uma experiência ainda
+                 mais enriquecedora ao proporcionar acesso à monitoria de profissionais experientes
+                 da área. Todos os certificados obtidos em nossos cursos são aprovados pelo MEC,
+                 garantindo sua validade e reconhecimento no mercado. Uma vez concluído o bootcamp,
+                 os certificados são exibidos no perfil pessoal de cada aluno, acompanhados do currículo,
+                 proporcionando uma apresentação completa e profissional para possíveis contratações
+                 por empresas parceiras. Essa abordagem integrada visa não apenas o aprendizado, mas
+                 também a inserção qualificada dos nossos alunos no mercado de trabalho.</p>
+            </div>
+
+            <div class="buttCursos">
+                <button class="bcitem1">VEJA MAIS!</button>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
+
+<script src="SiteFigma.js">
+    
+</script>
+
