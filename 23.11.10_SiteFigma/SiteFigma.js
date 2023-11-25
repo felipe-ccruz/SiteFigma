@@ -3,6 +3,9 @@
         element.style.backgroundColor = '';
         element.style.transform = 'scale(1)';
     }
+    function retornarMain(){
+        window.location.href = "/SiteFigma.html"
+    }
 
 
 
@@ -37,6 +40,9 @@
           behavior: 'smooth'
         });
       }
+    function siteFigmaVideo() {
+        window.location.href = "/SiteFigmaVídeo.html"
+    }
 
     // BootCamps
     function acharBootCamps() {

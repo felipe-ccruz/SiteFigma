@@ -160,9 +160,9 @@ body{
             font-size: 20px;
             
             
-            padding: 10%;
-            padding-top: 9%;  
-            padding-bottom: 9%;  
+            padding: 5%;
+            padding-top: 2%;  
+            padding-bottom: 2%;  
         }
 
 
@@ -235,8 +235,6 @@ body{
 
             width: 100%;
 
-            background-color: aqua;
-
             margin-top: 5%;
         }   
             /* Aula */
@@ -246,12 +244,24 @@ body{
 
                 display: flex;
                 flex-direction: column;
-                background-color: aliceblue;
             }
             .abutt{
                 margin-top: 40px;
+                margin-left: 5%;
                 
+                font-family: sans-serif;
+
                 background-color: #F2C777;
+                width: 30%;
+                height: 30%;
+            }
+            .descrição{
+                background-color: #efe4b7;
+                border-radius: 5%;
+                padding: 3%;
+
+                margin-top: 30px;
+                
             }
 
             /* Módulos */
@@ -278,7 +288,3 @@ body{
                     border: #F2A25C solid 1px;
                 }
     
-    /* Inferior */
-        .inferior{
-            
-        }
